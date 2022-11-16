@@ -23,7 +23,7 @@
         "@nuxtjs/vuetify": "^1.12.3",
         "nuxt-edge": "2.16.0-27720022.54e852f",
         "remark-plugin-vue-live": "^1.0.5",
-        "vue-live": "^2.1.0"
+        "vue-live": "^2.3.2"
     },
     "devDependencies": {
         "@commitlint/cli": "^17.1.2",

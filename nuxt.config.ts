@@ -1,4 +1,3 @@
-import WorkerPlugin from 'worker-plugin'
 import { defineNuxtConfig } from '@nuxt/bridge'
 
 export default defineNuxtConfig({
@@ -56,7 +55,7 @@ export default defineNuxtConfig({
     },
 
     // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-    plugins: [],
+    plugins: [{ src: '~/plugins/vue-live.js' }],
 
     // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
     buildModules: ['nuxt-compress'],
